@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .circle{
+        @apply w-20 h-20 rounded-full bg-green-400 m-12
+    }
+    .circle.red{
+        @apply w-20 h-20 rounded-full bg-red-400 m-12
+    }
+    .circle.blue{
+        @apply w-20 h-20 rounded-full bg-blue-400 m-12
+    }
+}
